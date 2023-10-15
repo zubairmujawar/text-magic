@@ -10,6 +10,10 @@ const Textmagic = () => {
   const uppercase = () => {
     setinput(input.toUpperCase());
   };
+
+  const lowercase = () =>{
+    setinput(input.toLowerCase())
+  }
   return (
     <div className="main-container">
       <h1>Text</h1>
@@ -23,7 +27,7 @@ const Textmagic = () => {
       <button onClick={uppercase} className="btn">
         Upper
       </button>
-      <button className="btn">Lower</button>
+      <button className="btn" onClick={lowercase}>Lower</button>
     </div>
   );
 };

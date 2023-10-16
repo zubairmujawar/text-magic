@@ -20,11 +20,28 @@ code {
 .main-container{
   width: 100vw;
   height: 100vh;
-  background-color: gray;
+  /* background:linear-gradient(rgb(0, 0, 0), rgb(53, 156, 203)); */
+  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7R3R-XstzPSJJ4_4UunhSzwH5y4zRW2ncj7zi_62FV9WD18VydpxtbVReR0ighiHrjcI&usqp=CAU);
+  display: flex;
+  /* background-size: cover; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  background-color: white;
+  padding: 5px;
+}
+#textinput{
+  margin: 5px;
+  padding: 15px;
+  font-size: 1rem;
 }
 
 .btn{
-  padding: 5px;
-  margin-left: 5px;
+  padding: 10px;
+  margin: 5px;
   cursor: pointer;
+  color: white;
+  background-color: black;
 }

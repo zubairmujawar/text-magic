@@ -21,15 +21,16 @@ code {
   width: 100vw;
   height: 100vh;
   /* background:linear-gradient(rgb(0, 0, 0), rgb(53, 156, 203)); */
-  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7R3R-XstzPSJJ4_4UunhSzwH5y4zRW2ncj7zi_62FV9WD18VydpxtbVReR0ighiHrjcI&usqp=CAU);
+  /* background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7R3R-XstzPSJJ4_4UunhSzwH5y4zRW2ncj7zi_62FV9WD18VydpxtbVReR0ighiHrjcI&usqp=CAU); */
+  background: url(https://img.freepik.com/free-photo/top-view-alphabet-letters-frame_23-2148718188.jpg?w=1380&t=st=1697474909~exp=1697475509~hmac=23a2763696f17f60a5c9073b04fc478e20bd3111b0a9fd5ca4a29da97c4ae66b);
   display: flex;
-  /* background-size: cover; */
+  background-size: cover;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 h1{
-  background-color: white;
+  /* background-color: white; */
   padding: 5px;
 }
 #textinput{

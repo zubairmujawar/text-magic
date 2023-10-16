@@ -19,11 +19,15 @@ const Textmagic = () => {
       return  word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
     })
     .join(' ')
-    setinput(titleCaseText)
+    setinput(titleCaseText);
+  }
+
+  const removeSpaces = () =>{
+    setinput(input.replace(/\s+/g, ' '))
   }
   return (
     <div className="main-container">
-      <h1>Text Magic</h1>
+      <h1>Text Tool</h1>
       <textarea
         placeholder="text here"
         value={input}
@@ -41,7 +45,10 @@ const Textmagic = () => {
           Lower
         </button>
         <button className="btn" onClick={eachLetterCapital}>
-          Upper case each first letter of word
+          Title case
+        </button>
+        <button className="btn" onClick={removeSpaces}>
+          Remove Extra Spaces
         </button>
       </div>
     </div>

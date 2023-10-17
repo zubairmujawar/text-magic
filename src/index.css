@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,18 +7,9 @@
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:"poppins";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 .main-container {
   width: 100vw;
   height: 100vh;
@@ -29,12 +22,12 @@ code {
   align-items: center;
 }
 h1 {
-  /* background-color: white; */
+  font-weight: 500;
   padding: 5px;
 }
 #textinput {
   margin: 5px;
-  padding: 15px;
+  padding: 35px;
   font-size: 1rem;
 }
 
@@ -44,7 +37,44 @@ h1 {
   cursor: pointer;
   color: white;
   background-color: black;
-  border-radius: 5px;
+  border-radius: 8px;
+  border: none;
 }
 
 
+
+@media (max-width: 768px) {
+  /* Default styles for .main-container and its child elements */
+
+  .main-container {
+    width: 100vw;
+    height: calc(100vh - 40px) ;
+    /* background: url(https://img.freepik.com/free-photo/top-view-alphabet-letters-frame_23-2148718188.jpg?w=1380&t=st=1697474909~exp=1697475509~hmac=23a2763696f17f60a5c9073b04fc478e20bd3111b0a9fd5ca4a29da97c4ae66b); */
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+
+  h1 {
+    padding: 5px;
+  }
+
+  #textinput {
+    margin: 5px;
+    padding: 15px;
+    font-size: 8px;
+  }
+
+  .btn {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+
+  
+}

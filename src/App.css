@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around;
   background-color: lightblue;
-  height: 30px;
+  height: 40px;
 }
 
 .navitmescontainer{
@@ -14,4 +14,8 @@
 .navitmescontainer > li{
   cursor: pointer;
   margin-left:10px;
+}
+.navbar img{
+  /* width: 20%;
+  height: 100%; */
 }

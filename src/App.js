@@ -1,11 +1,11 @@
 import "./App.css";
-import Textmagic from "./Textmagic";
+import Textmagic from "./Components/Textmagic";
 
 function App() {
 
   return (
    <>
-  <Textmagic/>
+    <Textmagic/>
    </>
   );
 }

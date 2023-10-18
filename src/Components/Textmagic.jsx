@@ -41,7 +41,7 @@ const Textmagic = () => {
   const copyToClipboard = useCallback(() => {
     passRef.current?.select();
     window.navigator.clipboard.writeText(input);
-  }, []);
+  }, [input]);
 
   return (
     <div className="main-container">

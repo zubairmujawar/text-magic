@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  .main-container {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+
+  h1 {
+    padding: 5px;
+  }
+
+  #textinput {
+    margin: 5px;
+    padding: 15px;
+    font-size: 8px;
+  }
+
+  .btn {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+}

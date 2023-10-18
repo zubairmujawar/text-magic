@@ -13,7 +13,6 @@ body {
 .main-container {
   width: 100vw;
   height: 100vh;
-  /* background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7R3R-XstzPSJJ4_4UunhSzwH5y4zRW2ncj7zi_62FV9WD18VydpxtbVReR0ighiHrjcI&usqp=CAU); */
   background: url(https://img.freepik.com/free-photo/top-view-alphabet-letters-frame_23-2148718188.jpg?w=1380&t=st=1697474909~exp=1697475509~hmac=23a2763696f17f60a5c9073b04fc478e20bd3111b0a9fd5ca4a29da97c4ae66b);
   display: flex;
   background-size: cover;
@@ -44,11 +43,10 @@ h1 {
 
 
 @media (max-width: 768px) {
-  
+
   .main-container {
     width: 100vw;
     height: calc(100vh - 40px) ;
-    /* background: url(https://img.freepik.com/free-photo/top-view-alphabet-letters-frame_23-2148718188.jpg?w=1380&t=st=1697474909~exp=1697475509~hmac=23a2763696f17f60a5c9073b04fc478e20bd3111b0a9fd5ca4a29da97c4ae66b); */
     display: flex;
     background-size: cover;
     flex-direction: column;
@@ -74,6 +72,4 @@ h1 {
     color: white;
     background-color: black;
   }
-
-  
 }

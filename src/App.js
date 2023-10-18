@@ -1,4 +1,3 @@
-import "./App.css";
 import Textmagic from "./Components/Textmagic";
 
 function App() {

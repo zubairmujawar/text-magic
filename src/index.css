@@ -44,8 +44,7 @@ h1 {
 
 
 @media (max-width: 768px) {
-  /* Default styles for .main-container and its child elements */
-
+  
   .main-container {
     width: 100vw;
     height: calc(100vh - 40px) ;

@@ -1,9 +1,11 @@
-@media (max-width: 768px) {
+@media (min-width: 620px) {
   .main-container {
+    background-color: red;
     width: 100vw;
+    height: 100vh;
     height: calc(100vh - 40px);
     display: flex;
-    background-size: cover;
+    background-size: contain;
     flex-direction: column;
     justify-content: center;
     align-items: center;

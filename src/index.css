@@ -12,8 +12,14 @@ body {
 
 .main-container {
   width: 100vw;
+<<<<<<< HEAD
   height: 100vh;
   background: url(https://img.freepik.com/free-photo/top-view-alphabet-letters-frame_23-2148718188.jpg?w=1380&t=st=1697474909~exp=1697475509~hmac=23a2763696f17f60a5c9073b04fc478e20bd3111b0a9fd5ca4a29da97c4ae66b);
+=======
+  height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #ffffff, #000000);
+  /* background: url(https://img.freepik.com/free-photo/top-view-alphabet-letters-frame_23-2148718188.jpg?w=1380&t=st=1697474909~exp=1697475509~hmac=23a2763696f17f60a5c9073b04fc478e20bd3111b0a9fd5ca4a29da97c4ae66b); */
+>>>>>>> f15401e (Navbar added)
   display: flex;
   background-size: cover;
   flex-direction: column;
@@ -48,3 +54,47 @@ h1 {
   border-radius: 8px;
   border: none;
 }
+<<<<<<< HEAD
+=======
+.Navbar{
+  width: 100vw;
+  height: 40px;
+  background-color: white;
+
+}
+.navitmes{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.navitmes li{
+  cursor: pointer;
+  font-family: 400;
+}
+.navitmes li a{
+  text-decoration: none;
+}
+.navitmes li a:active{
+  color: yellow;
+  background-color: blue;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  color: white;
+  background-color: black;
+
+}
+
+
+/* ------------ about-container ------------ */
+.about-container{
+  width: 100vw;
+  height: calc(100vh - 100px);
+  margin: 0 auto;
+}
+>>>>>>> f15401e (Navbar added)

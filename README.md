@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Project is live on this link:   https://text-magic-8c36d.netlify.app/
+=======
+Project is live on 
+
+https://text-magic-8c36d.netlify.app/
+>>>>>>> f15401e (Navbar added)
 
 Must check out my project and please give a feedback.
 

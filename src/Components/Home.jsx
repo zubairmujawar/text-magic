@@ -52,8 +52,8 @@ const Home = () => {
           value={input}
           id="textinput"
           onChange={inputHandelar}
-          rows={12}
-          cols={50}
+          rows={window.outerWidth > "600px" ? 12 : 8}
+          cols={window.outerWidth > "600px" ? 50 : 30}
           ref={passRef}
           autoFocus
         ></textarea>

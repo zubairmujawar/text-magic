@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Home from './Components/Home'
 import About from './Components/About'
-import Footer from './Components/Footer'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './Components/Layout';
 

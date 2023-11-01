@@ -23,6 +23,11 @@ const Navbar = () => {
                 About
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/contact" className={"Navbar"}>
+                Contact
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>

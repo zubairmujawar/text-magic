@@ -35,6 +35,9 @@ const Textmagic = () => {
   const removeSpaces = () => {
     setinput(input.replace(/\s+/g, " "));
   };
+  const removeAllSpaces = () => {
+    setinput(input.replace(""));
+  };
 
   const passRef = useRef(null);
 
@@ -79,6 +82,13 @@ const Textmagic = () => {
           >
             Copy
           </button>
+          <button
+            className="btn"
+            onClick={() => handelTransform(removeAllSpaces)}
+          >
+            Remove all spaces
+          </button>
+          <h1>Hello</h1>
         </div>
       </div>
     </div>

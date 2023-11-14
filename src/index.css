@@ -13,7 +13,7 @@ body {
 .main-container {
   max-width: 100vw;
   height: calc(100vh - 100px);
-  background: linear-gradient(180deg, #ffffff, #000000);
+  background: linear-gradient(180deg, rgb(65, 49, 49), rgb(197, 197, 197));
   /* background: url(https://img.freepik.com/free-photo/top-view-alphabet-letters-frame_23-2148718188.jpg?w=1380&t=st=1697474909~exp=1697475509~hmac=23a2763696f17f60a5c9073b04fc478e20bd3111b0a9fd5ca4a29da97c4ae66b); */
   display: flex;
   background-size: cover;

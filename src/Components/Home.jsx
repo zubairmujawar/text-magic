@@ -39,6 +39,10 @@ const Home = () => {
   const removeAllSpaces = () => {
     setinput(input.replace(/\s/g, ""));
   };
+
+  const clear = () =>{
+    setinput("")
+  }
   
 
   const passRef = useRef(null);
@@ -89,6 +93,12 @@ const Home = () => {
             onClick={() => handelTransform(removeAllSpaces)}
           >
             Remove all spaces
+          </button>
+          <button
+            className="btn"
+            onClick={() => handelTransform(clear)}
+          >
+            Clear
           </button>
         </div>
       </div>

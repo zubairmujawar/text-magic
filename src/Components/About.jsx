@@ -1,63 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 
 const About = () => {
-  const [input, setinput] = useState("");
-  const [item, setitem] = useState([]);
-
-  const addItem = () => {
-    setitem([...item, input]);
-    setinput("");
-  };
-  const deleteItem = (id) => {
-    const updatedTodo = item.filter((elem, ind) => {
-      return ind !== id;
-    });
-    setitem(updatedTodo);
-  };
-  const clearAll = () => {
-    setitem([]);
-  };
   return (
-    <div className="about-container">
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <input
-          type="text"
-          id="input"
-          placeholder="type your todo.."
-          value={input}
-          onChange={(e) => setinput(e.target.value)}
-        />
-        <button className="btn" onClick={addItem}>
-          Add
-        </button>
-        <button onClick={clearAll} className="btn">
-          clear All
-        </button>
-      </div>
-      <div>
-        <ul>
-          {item.map((elem, index) => (
-            <div
-              key={index}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <h5 className="todo">{elem}</h5>
-              <button className="btn" onClick={() => deleteItem(index)}>
-                Delete
-              </button>
-            </div>
-          ))}
-        </ul>
+    <div className="about-main-div">
+
+      <div className="info">
+      <h2>Welcome to Text Tool</h2>
+      <h4 className="h4">
+        Your ultimate solution for text manipulation! With Text Tool, you can
+        easily modify and refine your text exactly the way you want it. Whether
+        you need to convert text to uppercase, lowercase, or title case, remove
+        extra spaces, or even eliminate all spaces altogether, we've got you
+        covered. Simply paste your text into our intuitive interface and unleash
+        the power of our user-friendly tools to transform your text
+        effortlessly. Say goodbye to manual editing and hello to efficiency with
+        Text Tool!
+      </h4>
       </div>
     </div>
   );

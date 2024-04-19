@@ -10,9 +10,6 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                // className={({ isActive }) =>
-                //   `Navbar ${isActive ? "color: Yellow" : "background: #00ff26"}`
-                // }
                 className={"Navbar"}
               >
                 Home
@@ -21,11 +18,6 @@ const Navbar = () => {
             <li>
               <NavLink to="/about" className={"Navbar"}>
                 About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact" className={"Navbar"}>
-                Contact
               </NavLink>
             </li>
           </ul>
